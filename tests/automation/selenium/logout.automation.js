@@ -13,7 +13,7 @@ import { Builder, By, until } from 'selenium-webdriver';
          console.log('Setting authentication cookies');
          await driver.manage().addCookie({
              name: 'accessToken', // Name of the cookie (replace with your app's cookie name)
-             value: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Nzg1OTlhZTdjYTFlOTY1MmNmOTU1YzciLCJpYXQiOjE3MzcwNDUwMzEsImV4cCI6MTczNzA0NTkzMX0.lU6srhF19TaaNR6jVIMfngLNj874tCT8Ynq6SMecJSQ', // Value of the session cookie (obtain this from a previous login)
+             value: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Nzg1OTlhZTdjYTFlOTY1MmNmOTU1YzciLCJpYXQiOjE3MzcxNDk2NzYsImV4cCI6MTczNzE1MDU3Nn0.oapuDD_wU_h-bU32f58hXyez9ILDiESZKJ3Qf7KuY34', // Value of the session cookie (obtain this from a previous login)
              domain: 'ai-gen-factory.onrender.com', // Domain of the cookie
          });
  
@@ -24,7 +24,7 @@ import { Builder, By, until } from 'selenium-webdriver';
          // Step 4: Verify the logged-in state
          console.log('Verifying logged-in state');
          await driver.wait(until.elementLocated(By.css('.lucide.lucide-log-out')), 5000); // Replace with a locator unique to the logged-in state
-
+         await driver.sleep(2000);
         // Step 1: Log in to start the test
         console.log('Logging in as a prerequisite for logout');
         

@@ -1,37 +1,18 @@
-# AI-Generated Image Store - QA ![App Homepage](HomePage.png)
+# AI-Generated Image Store ![App Homepage](HomePage.png)
 
 ## Overview
 
-This repository is a testing environment for the **AI-Generated Image Store**, an e-commerce platform where users can explore and purchase AI-generated images. The repository focuses on comprehensive quality assurance, covering all components, including the Node.js backend, React frontend, and integrations like Stripe and Cloudinary.
+The **AI-Generated Image Store** is an e-commerce platform where users can explore and purchase AI-generated images. It features a Node.js backend, React frontend, and integrations for secure payments and efficient data handling.
 
 ---
 
-## Purpose
+## Features
 
-- Test all features of the application with unit, integration, and end-to-end tests.
-- Ensure platform reliability, security, and performance.
-- Showcase quality assurance skills using modern tools and methodologies.
-
----
-
-## Features Under Testing
-
-- **Product Browsing & Purchase Workflow**: End-to-end user experience testing.
-- **User Authentication & Authorization**: Secure access control validation.
-- **Payments Integration**: Stripe API payment workflows.
-- **Image Management**: Cloudinary-based image uploads and retrievals.
-- **Admin Functionality**: Product and order management tools.
-- **API & Database**: RESTful APIs, MongoDB operations, and Redis caching.
-
----
-
-## Testing Tools and Frameworks
-
-- **Frontend Tests**: Jest, React Testing Library, Cypress
-- **Backend Tests**: Mocha, Chai, Supertest
-- **API Tests**: Postman, Newman
-- **Performance Tests**: Artillery, Apache JMeter
-- **CI/CD**: Automated testing with GitHub Actions
+- Browse and buy AI-generated artwork
+- User-friendly interface with responsive design
+- Secure payments via Stripe
+- Image Storage with Cloudinary
+- Admin tools for product and order management
 
 ---
 
@@ -61,6 +42,10 @@ Update src/lib/axios.js with the backend URL.
 
 npm run build
 
+##Access
+- Frontend: Your hosting URL
+- Backend: Use Postman or the frontend to test endpoints.
+
 ##Technologies
 - Backend: Node.js, Express.js, MongoDB, Redis, Stripe
 - Frontend: React.js, Vite, TailwindCSS
@@ -69,7 +54,6 @@ npm run build
 This project is licensed under the MIT License. See the [MIT License](LICENSE) file for more details.
 
 ## Notes
-This repository demonstrates:
-- **Comprehensive Testing**: Thorough unit, integration, and performance testing of a full-stack application.
-- **Debugging and Optimization**: Proficiency in identifying, resolving, and optimizing application issues.
-- **Modern QA Practices**: Practical use of industry-standard tools and workflows to ensure high-quality, reliable software.
+This project was developed as part of a coding bootcamp(Coding Factory) final project to demonstrate:
+- The ability to customize and extend an existing codebase.
+- The integration of custom designs and thematic updates.
