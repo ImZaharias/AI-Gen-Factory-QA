@@ -6,7 +6,9 @@
     "dev": "nodemon backend/server.js",
     "start": "node backend/server.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
-    "test:selenium": "node selenium-tests/login.test.js"
+    "test:selenium:login": "node tests/automation/selenium/login.test.js",
+    "test:selenium:signup": "node tests/automation/selenium/signup.test.js",
+    "test:selenium:logout": "node tests/automation/selenium/logout.test.js"
   },
   "keywords": [],
   "author": "",
