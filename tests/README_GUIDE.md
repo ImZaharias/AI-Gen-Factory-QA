@@ -1,95 +1,59 @@
-# Testing Frameworks Guide
+# Full-Stack React & Node.js Application - Testing Frameworks Guide
 
-This guide provides a detailed overview of the testing categories and the frameworks/tools used in each category for a full-stack web application.
-
----
-
-## Accessibility
-
-**Frameworks/Tools:**
-- **axe-core**: Programmatic accessibility testing.
-- **pa11y**: Accessibility auditing CLI.
-- **react-testing-library**: Accessibility checks using React.
+This guide provides an overview of the essential testing frameworks and tools for a full-stack React and Node.js application, focusing on the most important categories of testing for your project.
 
 ---
 
-## API
+## **1. Accessibility**
 
 **Frameworks/Tools:**
-- **supertest**: HTTP request assertions for Node.js.
-- **postman**: Automated API testing workflows.
+- **axe-core**: Programmatic accessibility testing for the frontend.
+- **react-testing-library**: Accessibility checks for React components.
+
+---
+
+## **2. API**
+
+**Frameworks/Tools:**
+- **supertest**: HTTP request assertions for testing Node.js APIs.
 - **chai-http**: API testing with Chai assertions.
 
 ---
 
-## Integration
+## **3. Integration**
 
 **Frameworks/Tools:**
-- **cypress**: End-to-end testing for integration workflows.
-- **jest**: Testing backend and frontend integration.
-- **playwright**: Integration tests with browser automation.
+- **cypress**: End-to-end testing framework for integration workflows.
+- **jest**: Testing both backend and frontend integration.
 
 ---
 
-## Functional
+## **4. Functional**
 
 **Frameworks/Tools:**
-- **react-testing-library**: React component functional tests.
+- **react-testing-library**: Functional tests for React components.
 - **jest**: Backend and React functional tests.
-- **enzyme**: Legacy React functional testing.
 
 ---
 
-## Performance
+## **5. Security**
 
 **Frameworks/Tools:**
-- **lighthouse**: Frontend performance audits.
-- **k6**: Load and stress testing for APIs.
-- **artillery**: API and backend performance testing.
+- **owasp-zap**: Vulnerability scanning for security testing.
+- **snyk**: Scans dependencies for vulnerabilities.
 
 ---
 
-## Security
+## **6. Automation**
 
 **Frameworks/Tools:**
-- **owasp-zap**: Vulnerability scanning.
-- **snyk**: Dependency security analysis.
-- **custom-sanitization**: Custom test cases for SQL Injection, XSS, etc.
+- **cypress**: Automates user workflows and ensures the system behaves as expected.
+- **selenium**: UI and regression automation testing for React and Node.js.
 
 ---
 
-## Usability
+This guide summarizes the essential testing tools for your full-stack React and Node.js application. By using these frameworks, you ensure quality, performance, security, and usability across the project.
 
-**Frameworks/Tools:**
-- **react-testing-library**: Usability testing for React components.
-- **user-feedback**: Placeholder for user feedback or heuristic evaluation tests.
 
----
 
-## Compatibility
-
-**Frameworks/Tools:**
-- **browserstack**: Cross-browser testing.
-- **playwright**: Browser automation for compatibility.
-- **cypress**: Testing compatibility with screen sizes and browsers.
-
----
-
-## Exploratory
-
-**Tools:**
-- **exploratory-notes.md**: Documentation for exploratory findings and edge-case scenarios.
-
----
-
-## Automation
-
-**Frameworks/Tools:**
-- **cypress**: Automating user workflows.
-- **playwright**: Advanced automation with browser controls.
-- **selenium**: UI and regression automation testing.
-
----
-
-This structure ensures comprehensive testing coverage for all aspects of a full-stack web application while leveraging best-in-class tools and frameworks.
 
