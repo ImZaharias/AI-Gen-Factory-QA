@@ -4,15 +4,7 @@ This guide provides an overview of the essential testing frameworks and tools fo
 
 ---
 
-## **1. Accessibility**
-
-**Frameworks/Tools:**
-- **axe-core**: Programmatic accessibility testing for the frontend.
-- **react-testing-library**: Accessibility checks for React components.
-
----
-
-## **2. API**
+## **1. API**
 
 **Frameworks/Tools:**
 - **supertest**: HTTP request assertions for testing Node.js APIs.
@@ -20,7 +12,7 @@ This guide provides an overview of the essential testing frameworks and tools fo
 
 ---
 
-## **3. Integration**
+## **2. Integration**
 
 **Frameworks/Tools:**
 - **cypress**: End-to-end testing framework for integration workflows.
@@ -28,7 +20,7 @@ This guide provides an overview of the essential testing frameworks and tools fo
 
 ---
 
-## **4. Functional**
+## **3. Functional**
 
 **Frameworks/Tools:**
 - **react-testing-library**: Functional tests for React components.
@@ -36,15 +28,7 @@ This guide provides an overview of the essential testing frameworks and tools fo
 
 ---
 
-## **5. Security**
-
-**Frameworks/Tools:**
-- **owasp-zap**: Vulnerability scanning for security testing.
-- **snyk**: Scans dependencies for vulnerabilities.
-
----
-
-## **6. Automation**
+## **4. Automation**
 
 **Frameworks/Tools:**
 - **cypress**: Automates user workflows and ensures the system behaves as expected.
@@ -53,6 +37,8 @@ This guide provides an overview of the essential testing frameworks and tools fo
 ---
 
 This guide summarizes the essential testing tools for your full-stack React and Node.js application. By using these frameworks, you ensure quality, performance, security, and usability across the project.
+
+
 
 
 
